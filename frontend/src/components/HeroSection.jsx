@@ -1,7 +1,8 @@
-import heroImage from "../assets/images/hero.jpg";
-import pattern from "../assets/images/pattern.jpg";
 import "@fontsource/poppins"; 
 import { FaArrowRight } from "react-icons/fa"; 
+import heroImage from "../assets/images/hero1w.webp";
+import pattern from "../assets/images/pattern.jpg";
+
 
 const HeroSection = () => {
   return (
@@ -60,7 +61,7 @@ const HeroSection = () => {
       <div className="flex-1 mt-8 md:mt-0 relative">
         <img
           src={heroImage}
-          alt="Hero"
+          alt="Hero page image "
           className="w-full max-w-lg mx-auto md:max-w-xl"
         />
       </div>
